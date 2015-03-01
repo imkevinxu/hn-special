@@ -244,3 +244,96 @@ html.hnspecial-theme.hnspecial-permissions-iframe-inner button{width:100%}
 60%{right:80px;opacity:1}
 100%{right:-500px;opacity:0}
 }
+
+/* Custom styling for news.ycombinator.com */
+html.hnspecial-theme-preload body {
+  display: block !important;
+}
+
+html.hnspecial-theme body > center > table > tbody > tr:nth-child(3) > td td.title + td {
+    padding: 0 5px 3px 5px;
+}
+
+html.hnspecial-theme body > center > table > tbody > tr:nth-child(3) > td > table:first-of-type {
+    margin-top: 20px;
+}
+
+html.hnspecial-theme body > center {
+  max-width: 1000px !important;
+}
+
+html.hnspecial-theme body > center > table > tbody > tr:first-child > td > table td:nth-child(2) b a {
+  margin-right: 0 !important;
+}
+
+a > font {
+  color: #219DFF !important;
+}
+
+/* Special color for YC Partners */
+a[href="user?id=sama"] font,
+a[href="user?id=sctb"] font,
+a[href="user?id=tlb"] font,
+a[href="user?id=pb"] font,
+a[href="user?id=amy"] font,
+a[href="user?id=pc"] font,
+a[href="user?id=dalton"] font,
+a[href="user?id=adora"] font,
+a[href="user?id=kate"] font,
+a[href="user?id=daniel"] font,
+a[href="user?id=brett"] font,
+a[href="user?id=pg"] font,
+a[href="user?id=kevin"] font,
+a[href="user?id=akh"] font,
+a[href="user?id=bill"] font,
+a[href="user?id=elizabethiorns"] font,
+a[href="user?id=justin"] font,
+a[href="user?id=clevy"] font,
+a[href="user?id=jlevy"] font,
+a[href="user?id=x"] font,
+a[href="user?id=irina"] font,
+a[href="user?id=kat"] font,
+a[href="user?id=andrew"] font,
+a[href="user?id=nichola"] font,
+a[href="user?id=kirsty"] font,
+a[href="user?id=alexis"] font,
+a[href="user?id=tara"] font,
+a[href="user?id=geoff"] font,
+a[href="user?id=arowghani"] font,
+a[href="user?id=yuri"] font,
+a[href="user?id=michael"] font,
+a[href="user?id=emmett"] font,
+a[href="user?id=kogir"] font,
+a[href="user?id=ilya"] font,
+a[href="user?id=harj"] font,
+a[href="user?id=garry"] font,
+a[href="user?id=qy"] font, {
+  font-weight: bold !important;
+}
+
+/* Special styling */
+html.hnspecial-theme body > center > table > tbody > tr:nth-child(3) > td > table:first-of-type > tbody tr td:first-child > a {
+  display: inline !important;
+  padding: 0 !important;
+}
+
+html.hnspecial-theme body > center > table > tbody > tr:nth-child(3) > td > table:first-of-type {
+  color: #444;
+}
+
+html.hnspecial-theme body > center > table > tbody > tr:nth-child(3) > td {
+  padding: 0px;
+}
+
+html.hnspecial-theme td {
+  padding: 4px 8px;
+  line-height: 1.5;
+}
+
+html.hnspecial-theme td img[src="s.gif"] {
+  display: none;
+}
+
+html.hnspecial-theme p {
+  margin-top: 10px;
+}
